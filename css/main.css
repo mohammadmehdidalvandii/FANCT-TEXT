@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: rgba(0 ,0 ,0  , 0.8);
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.shadows{
+ position: relative;
+ text-transform: uppercase;
+ text-shadow: -18px 10px 20px #ecd0d3;
+ color: white;
+ letter-spacing: -0.3em;
+ user-select: none;
+ font-size: 150px;
+ transition: all 0.25s ease-out;   
+}
+
+.shadows:hover{
+text-shadow: -17px 8px 18px #ced0d3;
+}
